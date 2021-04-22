@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main() {
+int i,j,k,n,m;
+printf("enter number of rows:");
+scanf("%d",&n);
+for(i=0;i<n;++i){ //This is the outer loop.
+for(j=0;j<n-i;++j){ //Loop that prints spaces
+It runs n-i times 
+printf("");
+}
+m=i+1; // The middle number.
+for (k=1;k<=m;++k){//prints numbers uptil the middle number.
+printf("%d",k);
+}
+for(k=+1;k>=1;--k){//prints numbers from the middle number to 1
+printf("%d",k);
+}
+print ("\n"); //sending cursor to next line
+}
+return 0;
+}
+
+
